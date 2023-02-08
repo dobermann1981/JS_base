@@ -1,0 +1,63 @@
+/*Хлебные крошки*/
+.breadcrumbs {
+    display: flex;
+    background-color: #F8F3F4;
+    width: 100%;
+    height: 148px;
+
+    &-box {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: $width-box;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    &-where-i {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #F16D7F;
+    }
+
+    &-list {
+        display: flex;
+    }
+
+    &-link,
+    &-target {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #636363;
+    }
+
+    &-target {
+        font-weight: 700;
+        color: #F16D7F;
+    }
+}
+
+@media (max-width:1141px) {
+    .breadcrumbs {
+        &-box {
+            padding: 0 16px;
+        }
+    }
+}
+
+@media (max-width:376px) {
+    .breadcrumbs {
+        &-box {
+            flex-direction: column;
+            padding: 22px 0px;
+
+            justify-content: space-around;
+        }
+    }
+}

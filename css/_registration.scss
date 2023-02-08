@@ -1,0 +1,172 @@
+.registration {
+    display: flex;
+    justify-content: space-between;
+    max-width: $width-box;
+    width: 100%;
+    margin: 64px auto 96px;
+    flex-wrap: wrap;
+}
+
+/*поля ввода. левый блок*/
+.registration {
+    &-data {
+        max-width: 359px;
+        width: 100%;
+
+
+        &-title {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+
+            color: #222222;
+        }
+
+        &-name {
+            max-width: 359px;
+            width: 100%;
+            height: 44px;
+            border: 1px solid #A4A4A4;
+            margin-top: 21px;
+            padding-left: 17px;
+            box-sizing: border-box;
+        }
+
+        &-name::placeholder {
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 16px;
+            color: #B1B1B1;
+
+        }
+
+        #male,
+        #female,
+        #other {
+            width: 17px;
+            height: 17px;
+            margin-right: 10px;
+            box-sizing: border-box;
+        }
+
+        &-gender-wrp {
+            display: flex;
+            align-items: center;
+            margin: 21px 0 35px;
+        }
+
+        &-gender {
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 12px;
+            color: #000000;
+            margin-right: 20px;
+            display: inline-flex;
+            align-items: center;
+            height: 17px;
+
+        }
+
+
+
+        &-password-legend {
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 16px;
+            max-width: 359px;
+            color: #B1B1B1;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 16px;
+            color: #B1B1B1;
+            margin: 15px 0 40px;
+        }
+
+        &-join-btn {
+            width: 167px;
+            height: 50px;
+            background: #F16D7F;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            border: none;
+        }
+
+        &-join-btn:hover {
+            background: #FFFFFF;
+            transition: all 0.7s;
+            color: #F16D7F;
+            border: #F16D7F 1px solid;
+        }
+    }
+}
+
+.other {
+    display: none;
+}
+
+#other {
+    display: none;
+}
+
+/*текстовая информация. правый блок*/
+.registration {
+
+    &-loyalty {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        max-width: 612px;
+        margin-bottom: 22px;
+
+        .title {
+            text-transform: uppercase;
+            margin-bottom: 22px;
+        }
+
+        .text {
+            margin-bottom: 16px;
+        }
+
+        .text::before {
+            content: url(../pic/galka.svg);
+            margin-right: 23px;
+        }
+    }
+}
+
+@media (max-width: 1010px) {
+    .other {
+        display: flex;
+    }
+
+    #other {
+        display: block;
+    }
+
+    .registration {
+        justify-content: space-around;
+        margin-top: 40px;
+
+        &-loyalty {
+            font-size: 16px;
+            line-height: 19px;
+            max-width: 354px;
+            margin-bottom: 32px;
+        }
+    }
+
+    .registration-loyalty-orders {
+        padding-left: 43px;
+        color: #000000;
+    }
+}
+
+@media (max-width: 730px) {
+    .wrp-loyalty {
+        margin-top: 40px;
+    }
+}

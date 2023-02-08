@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+    <title>Cart</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-bar">
+            <div class="header-bar-box">
+                <ul class="menu_header-bar left">
+                    <li><a href="index.html">
+                            <div class="menu-ico"></div>
+                        </a></li>
+                    <li>
+                        <form action="#" class="menu-ico-find-wrp">
+                            <label for="check-find" class="menu-ico-find"></label>
+                            <input type="checkbox" id="check-find">
+                            <input class="menu-ico-find-input" type="text" placeholder="find">
+                            <button type="submit" class="menu-ico-find-btn">Go</button>
+                        </form>
+                    </li>
+                </ul>
+                <ul class="menu_header-bar right">
+                    <li>
+                        <div class="menu-ico-link">
+                            <button class="menu-ico-menu"></button>
+                            <nav class="popup-menu">
+                                <button class="popup-menu-close"></button>
+                                <p class="popup-menu-header">Menu</p>
+                                <ul class="popup-menu-main">
+                                    <li>
+                                        <a class="popup-menu-main" href="#">Man</a>
+                                        <ul>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Accessories</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Bags</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Denim</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">T-Shirts</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="popup-menu-main">
+                                        <p>Woman</p>
+                                        <ul>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Accessories</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Jackets & Coats</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Polos</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">T-Shirts</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Shirts</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="popup-menu-main">
+                                        <p>Kids</p>
+                                        <ul>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Accessories</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Jackets & Coats</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Polos</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">T-Shirts</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Shirts</a>
+                                            </li>
+                                            <li class="popup-menu-item">
+                                                <a class="popup-menu-item" href="#">Bags</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li><a href="registration.html">
+                            <div class="menu-ico-account"></div>
+                        </a></li>
+                    <li><a href="cart.html">
+                            <div class="menu-ico-bascet"></div>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="breadcrumbs">
+            <div class="breadcrumbs-box">
+                <p class="breadcrumbs-where-i">Shopping cart</p>
+                <ul class="breadcrumbs-list">
+                    <li><a href="index.html" class="breadcrumbs-link">Home&nbsp; / &nbsp;</a></li>
+                    <!--<li><a class="breadcrumbs-link" href="#">Men&nbsp; /</a></li>-->
+                    <li><span class="breadcrumbs-target">Shopping cart</span></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="cart">
+            <section class="cart-items">
+                <div class="cart-item">
+                    <img class="cart-item-pic" src="pic/item3.png" alt="фото1">
+                    <div class="cart-item-description-wrp">
+                        <h2 class="cart-item-title">Mango people</h2>
+                        <h2 class="cart-item-category">T-shirt</h2>
+                        <p class="cart-item-price">Price: <span>$300</span></p>
+                        <p class="cart-item-color">Color: Red</p>
+                        <p class="cart-item-size">Size: XL</p>
+                        <label class="cart-item-quantity">Quantity:
+                            <input class="cart-item-quantity-input" value=2 type="number" min="1"></label>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img class="cart-item-pic" src="pic/item1.png" alt="фото1">
+                    <div class="cart-item-description-wrp">
+                        <h2 class="cart-item-title">Mango people</h2>
+                        <h2 class="cart-item-category">Denim</h2>
+                        <p class="cart-item-price">Price: <span>$200</span></p>
+                        <p class="cart-item-color">Color: Blue</p>
+                        <p class="cart-item-size">Size: L</p>
+                        <label class="cart-item-quantity">Quantity:
+                            <input class="cart-item-quantity-input" value=1 type="number" min="1"></label>
+                    </div>
+                </div>
+                <div class="cart-item-btn-wrp">
+                    <button class="cart-item-btn">Clear shopping cart</button>
+                    <button class="cart-item-btn">Continue shopping</button>
+                </div>
+            </section>
+            <section class="cart-adress">
+                <form action="#" class="cart-adress-box">
+                    <div class="cart-adress-wrp">
+                        <h2 class="cart-adress-title">Shipping adress</h2>
+                        <input class="cart-adress-input" type="text" placeholder="Bangladesh">
+                        <input class="cart-adress-input" type="text" placeholder="State">
+                        <input class="cart-adress-input" type="number" placeholder="Postcode&nbsp;/ Zip">
+                        <input class="cart-adress-quote" type="number" placeholder="Get a quote">
+                    </div>
+                    <div class="cart-adress-checkout-wrp">
+                        <p class="cart-adress-checkout-subtotal">Sub total $500</p>
+                        <p class="cart-adress-checkout-grandtotal">Grand total <span>$500</span></p>
+                        <button type="submit" class="cart-adress-checkout-btn">Proceed to checkout</button>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="footer-slogan">
+            <div class="footer-slogan_items">
+                <div class="footer-slogan_item">
+                    <div class="footer-slogan-ico1"></div>
+                    <p class="footer-slogan_title">Free Delivery</p>
+                    <p class="footer-slogan_text">Worldwide delivery on&nbsp;all. Authorit tively morph <wbr>next-generation
+                         innovation with extensive models.</p>
+                </div>
+                <div class="footer-slogan_item">
+                    <div class="footer-slogan-ico2"></div>
+                    <p class="footer-slogan_title">Sales &amp;&nbsp;discounts</p>
+                    <p class="footer-slogan_text">Worldwide delivery on&nbsp;all. Authorit tively morph <wbr>next-generation
+                        innovation with extensive models.</p>
+                </div>
+                <div class="footer-slogan_item">
+                    <div class="footer-slogan-ico3"></div>
+                    <p class="footer-slogan_title">Quality assurance</p>
+                    <p class="footer-slogan_text">Worldwide delivery on&nbsp;all. Authorit tively morph <wbr>next-generation
+                        innovation with extensive models.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-mail">
+            <div class="footer-mail-items">
+                <div class="footer-mail-item">
+                    <img class="footer-mail-pic" src="pic/foto.png" alt="foto">
+                    <p class="footer-mail-pic-text">&laquo;Vestibulum quis porttitor dui! Quisque viverra nunc&nbsp;mi,
+                        a&nbsp;pulvinar purus condimentum&raquo;</p>
+                </div>
+                <div class="footer-mail_item">
+                    <p class="footer-mail-item-title">Subscribe</p>
+                    <p class="footer-mail-item-text">For our newletter and promotion</p>
+                    <form action="#">
+                        <input type="email" class="footer-mail-mail" placeholder="Enter Your Email">
+                        <input type="submit" class="footer-mail-sub" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-contact">
+            <div class="footer-contact_items">
+                <p class="footer-contact-text">&copy;&nbsp;2021 Brand All Rights Reserved.</p>
+                <ul class="footer-contact-list">
+                    <li><a class="footer-contact-link" href="#"><img src="pic/contact1.png" alt="fbook"></a></li>
+                    <li><a class="footer-contact-link" href="#"><img src="pic/contact2.png" alt="mail"></a></li>
+                    <li><a class="footer-contact-link" href="#"><img src="pic/contact3.png" alt="inst"></a></li>
+                    <li><a class="footer-contact-link" href="#"><img src="pic/contact4.png" alt="tw"></a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
