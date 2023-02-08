@@ -1,0 +1,53 @@
+/*Анимация постера главной страницы*/
+
+@keyframes poster-anim {
+    from {
+        background-position: -620px 34px;
+    }
+
+    to {
+        background-position: -220px 34px;
+    }
+}
+
+@keyframes poster-anim784 {
+    from {
+        background-position: -320px -2px;
+    }
+
+    to {
+        background-position: -27px -2px;
+    }
+}
+
+/*Анимация загалвного меню*/
+
+@keyframes anim-backgrondcolor-menu_header-bar {
+    from {
+        background-color: #F1E4E6;
+    }
+
+    to {
+        background-color: black;
+    }
+}
+
+@keyframes anim-menu_header-bar-left {
+    from {
+        margin: 0 0 0 410px;
+    }
+
+    to {
+        margin: 0 0px;
+    }
+}
+
+@keyframes anim-menu_header-bar-right {
+    from {
+        margin: 0 410px 0 0;
+    }
+
+    to {
+        margin: 0 0px;
+    }
+}
